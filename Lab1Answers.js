@@ -67,4 +67,6 @@ const deleteTask = (task) => {
 };
 
 
+deleteTask(1); //calling the function to tremove the second element of the array ("Paul") and display the result
+
 
