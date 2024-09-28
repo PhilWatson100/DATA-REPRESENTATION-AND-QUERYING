@@ -38,6 +38,8 @@
 //Question 3 (a)
 const names = ["John", "Paul", "Mary", "Jack", "Jill"];
 
+console.log("there is currently "+names.length+" names on the array... \n" + names+ "\n \n");
+
 //creating the function and adding the parameter called task
 const addTask = (task) => {
     names.push(task);
@@ -46,4 +48,6 @@ const addTask = (task) => {
 addTask("Peter");
 
 //output the result to the console
-console.log(names);
+console.log("there is "+ names.length +" names on the array... \n" + names);
+
+
