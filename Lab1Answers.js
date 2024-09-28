@@ -52,10 +52,19 @@ const names = ["John", "Paul", "Mary", "Jack", "Jill"];
 //console.log("there is "+ names.length +" names on the array... \n" + names);
 
 //(c)
-//new funtion
+//new funtion and adding a for loop to interate over the elements of the array
 const listAllTasks = () => {for (var i = 0; i < names.length; i++) {console.log(names[i]);}};
 
-listAllTasks(); //calling the function
-    
+//listAllTasks(); //calling the function
+
+//(d)
+//delete Task function
+const deleteTask = (task) => {
+    console.log("Task to delete: " + task);
+    names.splice(task, 1);
+    console.log("Task deleted " );
+    listAllTasks();
+};
+
 
 
