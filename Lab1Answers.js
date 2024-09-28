@@ -38,16 +38,24 @@
 //Question 3 (a)
 const names = ["John", "Paul", "Mary", "Jack", "Jill"];
 
-console.log("there is currently "+names.length+" names on the array... \n" + names+ "\n \n");
+//(b)
+//console.log("there is currently "+names.length+" names on the array... \n" + names+ "\n \n");
 
 //creating the function and adding the parameter called task
-const addTask = (task) => {
-    names.push(task);
-}   
+//const addTask = (task) => {
+//    names.push(task);
+//}   
 //addign "Peter" to the names array
-addTask("Peter");
+//addTask("Peter");
 
 //output the result to the console
-console.log("there is "+ names.length +" names on the array... \n" + names);
+//console.log("there is "+ names.length +" names on the array... \n" + names);
+
+//(c)
+//new funtion
+const listAllTasks = () => {for (var i = 0; i < names.length; i++) {console.log(names[i]);}};
+
+listAllTasks(); //calling the function
+    
 
 
