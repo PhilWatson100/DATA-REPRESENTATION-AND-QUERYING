@@ -39,7 +39,7 @@
 //------------------------------------------------------------------------------------------------------------------------------
 
 //Question 3 (a)
-const names = ["John", "Paul", "Mary", "Jack", "Jill"];
+// const names = ["John", "Paul", "Mary", "Jack", "Jill"];
 
 //(b)
 //console.log("there is currently "+names.length+" names on the array... \n" + names+ "\n \n");
@@ -56,21 +56,21 @@ const names = ["John", "Paul", "Mary", "Jack", "Jill"];
 
 //(c)
 //new funtion and adding a for loop to interate over the elements of the array
-const listAllTasks = () => {for (var i = 0; i < names.length; i++) {console.log(names[i]);}};
+// const listAllTasks = () => {for (var i = 0; i < names.length; i++) {console.log(names[i]);}};
 
-//listAllTasks(); //calling the function
+// //listAllTasks(); //calling the function
 
-//(d)
-//delete Task function
-const deleteTask = (task) => {
-    console.log("name to delete: " + names[task]);
-    names.splice(task, 1);
-    console.log("Task deleted " );
-    listAllTasks();
-    console.log("Number of names: " + names.length);
-};
+// //(d)
+// //delete Task function
+// const deleteTask = (task) => {
+//     console.log("name to delete: " + names[task]);
+//     names.splice(task, 1);
+//     console.log("Task deleted " );
+//     listAllTasks();
+//     console.log("Number of names: " + names.length);
+// };
 
 
-deleteTask(1); //calling the function to remove the second element of the array ("Paul") and display the result
+//deleteTask(1); //calling the function to remove the second element of the array ("Paul") and display the result
 
 
