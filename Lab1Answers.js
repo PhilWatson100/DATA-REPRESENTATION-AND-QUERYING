@@ -20,17 +20,20 @@
 //console.log(add(5, 7));
 
 //(d)
-const ages = [25, 31, 42, 77];
+//const ages = [25, 31, 42, 77];
 
 //creating the .map function
-const newAge = ages.map(age => {
-    if (age < 70) {
-        return age * 2
-    }
-    else {
-        return age
-    }
-});
+// const newAge = ages.map(age => {
+//     if (age < 70) {
+//         return age * 2
+//     }
+//     else {
+//         return age
+//     }
+// });
 
-//output the result to the console
-console.log(newAge);
+// //output the result to the console
+// console.log(newAge);
+
+//Question 3 (a)
+const names = ["John", "Paul", "Mary", "Jack", "Jill"];
