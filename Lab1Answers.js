@@ -8,7 +8,13 @@
 
 
 //(b)
-const moduleName = (name) => name;
+//const moduleName = (name) => name;
 
 // Call the function and output the result to the console
-console.log(moduleName("Data Representation and Querying"));
+//console.log(moduleName("Data Representation and Querying"));
+
+//(c)
+const add = (a, b) => a + b;
+
+// Call the function and output the result to the console
+console.log(add(5, 7));
