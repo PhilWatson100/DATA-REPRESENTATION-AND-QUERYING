@@ -37,3 +37,10 @@
 
 //Question 3 (a)
 const names = ["John", "Paul", "Mary", "Jack", "Jill"];
+
+//creating the function and adding the parameter called task
+const addTask = (task) => {
+    names.push(task);
+
+}   
+
