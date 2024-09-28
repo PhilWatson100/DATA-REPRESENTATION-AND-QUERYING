@@ -1,4 +1,7 @@
-const materials  =  ['hydrogen', 'helium', 'lithium', 'beryllium'];
+//Question 2 (a)
 
-console.log(materials.map(material => material.length));
-// expected output: Array [8, 6, 7, 9]
+//creating the arrow function
+const moduleName = () => "Data Representation and Querying";
+
+// Call the function and output the result to the console
+console.log(moduleName());
