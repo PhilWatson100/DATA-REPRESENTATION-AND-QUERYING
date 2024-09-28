@@ -45,3 +45,5 @@ const addTask = (task) => {
 //addign "Peter" to the names array
 addTask("Peter");
 
+//output the result to the console
+console.log(names);
