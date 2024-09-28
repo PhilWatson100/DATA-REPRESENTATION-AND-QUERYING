@@ -41,6 +41,7 @@ const names = ["John", "Paul", "Mary", "Jack", "Jill"];
 //creating the function and adding the parameter called task
 const addTask = (task) => {
     names.push(task);
-
 }   
+//addign "Peter" to the names array
+addTask("Peter");
 
