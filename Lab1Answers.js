@@ -60,13 +60,14 @@ const listAllTasks = () => {for (var i = 0; i < names.length; i++) {console.log(
 //(d)
 //delete Task function
 const deleteTask = (task) => {
-    console.log("Task to delete: " + task);
+    console.log("name to delete: " + names[task]);
     names.splice(task, 1);
     console.log("Task deleted " );
     listAllTasks();
+    console.log("Number of names: " + names.length);
 };
 
 
-deleteTask(1); //calling the function to tremove the second element of the array ("Paul") and display the result
+deleteTask(1); //calling the function to remove the second element of the array ("Paul") and display the result
 
 
